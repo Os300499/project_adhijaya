@@ -1,0 +1,43 @@
+# file ini berisi nama file atau folder yang akan diupload ke hostingan online
+# update dari local akan dilakukan ketika halaman web dari framework ini di refresh
+# setiap 1 baris menandakan file atau folder yang akan diuplad. setelah
+# file terupload, parameter 'upload' akan terhapus 
+# status upload yang dapa digunakan adalah : 'ya', 'true', 'yes', 'y', 'a'
+
+upload = ya
+
+
+# kunci kedua database website
+# kunci database bisa berupa apa saja kunci ini digunakan untuk.
+# mengamankan database dari request diluar domain, kunci pertama yang
+# digunakan adalah password dari database itu sendiri
+database =
+# url / link untuk upload file akan secara automatis di buat berdasarkan
+# domain yang dimasukan dibawah. jika bukan domain dari file web ini dimasukan,
+# file tidak akan terupload ke domain tersebut
+# contoh : domain = https://domain.com
+
+domain = http://adijaya-karya-makmur.aliensgroup.my.id
+
+# kunci dibawah digunakan untuk mengamankan website online dari
+# postingan update yang tidak diinginkan kedalam website ini
+# isi dari kunci bisa berupa apa saja. string, int, symbol
+
+kunci = project_ikhwat
+
+# dibawah ini berisi file atau folder yang akan di upload ke hostingan online
+# jika yang diupload adalah folder, maka semua file dalam folder tersebut 
+# akan ikut terupload bersama folder tersebut
+# contoh dibawah untuk folder :
+# page
+
+# contoh dibawah untuk file :
+# sample.class.php
+
+pengaturan.php
+
+# untuk upload file secara spesifik, gunakan tanda \ untuk memisahkan folder
+# contoh dibawah untuk file spesifik :
+
+# templates\main.view.php
+# page\dashboard\main.view.php

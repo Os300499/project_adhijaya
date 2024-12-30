@@ -1,0 +1,179 @@
+[Sun Dec 15 20:03:14 2024] PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\xampp\php\ext\zip (The specified module could not be found), C:\xampp\php\ext\php_zip.dll (The specified module could not be found)) in Unknown on line 0
+[Sun Dec 15 20:03:14 2024] PHP 8.0.30 Development Server (http://localhost:4000) started
+[Sun Dec 15 20:04:12 2024] PHP 8.0.30 Development Server (http://localhost:4000) started
+[Sun Dec 15 20:04:24 2024] PHP 8.0.30 Development Server (http://localhost:4000) started
+[Sun Dec 15 20:04:24 2024] [::1]:60550 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60550 [200]: GET /
+[Sun Dec 15 20:04:24 2024] [::1]:60550 Closing
+[Sun Dec 15 20:04:24 2024] [::1]:60557 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60557 [200]: GET /login/
+[Sun Dec 15 20:04:24 2024] [::1]:60557 Closing
+[Sun Dec 15 20:04:24 2024] [::1]:60558 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60558 [404]: GET /favicon.ico - No such file or directory
+[Sun Dec 15 20:04:24 2024] [::1]:60558 Closing
+[Sun Dec 15 20:04:24 2024] [::1]:60561 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60562 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60563 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60564 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60565 Accepted
+[Sun Dec 15 20:04:24 2024] [::1]:60566 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60561 [200]: GET /assets/vendors/simplebar/simplebar.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60562 [200]: GET /assets/css/theme-rtl.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60563 [200]: GET /assets/css/theme.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60564 [200]: GET /assets/css/user-rtl.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60565 [200]: GET /assets/css/user.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60566 [200]: GET /assets/css/fontawesome.6.5.1.min.css
+[Sun Dec 15 20:04:25 2024] [::1]:60561 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60567 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60564 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60565 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60568 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60567 [200]: GET /assets/css/loading.css
+[Sun Dec 15 20:04:25 2024] [::1]:60567 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60568 [200]: GET /assets/js/jquery-3.7.0.js
+[Sun Dec 15 20:04:25 2024] [::1]:60568 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60570 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60566 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60570 [200]: GET /assets/vendors/simplebar/simplebar.min.js
+[Sun Dec 15 20:04:25 2024] [::1]:60570 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60562 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60571 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60563 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60571 [200]: GET /assets/js/config.js
+[Sun Dec 15 20:04:25 2024] [::1]:60571 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60572 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60572 [200]: GET /assets/js/login.js
+[Sun Dec 15 20:04:25 2024] [::1]:60572 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60573 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60574 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60573 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:25 2024] [::1]:60574 [200]: GET /assets/vendors/popper/popper.min.js
+[Sun Dec 15 20:04:25 2024] [::1]:60573 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60574 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60575 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60575 [404]: GET /assets/vendors/bootstrap/bootstrap.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60575 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60576 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60576 [200]: GET /assets/vendors/anchorjs/anchor.min.js
+[Sun Dec 15 20:04:25 2024] [::1]:60576 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60577 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60578 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60577 [404]: GET /assets/vendors/is/is.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60578 [404]: GET /assets/vendors/fontawesome/all.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60577 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60578 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60579 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60580 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60579 [404]: GET /assets/vendors/lodash/lodash.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60580 [404]: GET /assets/vendors/list.js/list.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60579 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60580 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60581 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60581 [404]: GET /assets/vendors/feather-icons/feather.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60581 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60582 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60582 [404]: GET /assets/vendors/dayjs/dayjs.min.js - No such file or directory
+[Sun Dec 15 20:04:25 2024] [::1]:60582 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60585 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60585 [200]: GET /assets/js/phoenix.js
+[Sun Dec 15 20:04:25 2024] [::1]:60585 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60586 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60586 [200]: GET /assets/js/login.js
+[Sun Dec 15 20:04:25 2024] [::1]:60586 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60587 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60587 [200]: GET /assets/font/fa-solid-900.woff2
+[Sun Dec 15 20:04:25 2024] [::1]:60587 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60591 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60591 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:25 2024] [::1]:60591 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60592 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60592 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:25 2024] [::1]:60592 Closing
+[Sun Dec 15 20:04:25 2024] [::1]:60593 Accepted
+[Sun Dec 15 20:04:25 2024] [::1]:60593 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:25 2024] [::1]:60593 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60596 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60596 [200]: GET /login/
+[Sun Dec 15 20:04:27 2024] [::1]:60596 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60599 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60600 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60601 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60602 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60599 [200]: GET /assets/vendors/simplebar/simplebar.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60600 [200]: GET /assets/js/jquery-3.7.0.js
+[Sun Dec 15 20:04:27 2024] [::1]:60601 [200]: GET /assets/vendors/simplebar/simplebar.min.js
+[Sun Dec 15 20:04:27 2024] [::1]:60599 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60602 [200]: GET /assets/js/config.js
+[Sun Dec 15 20:04:27 2024] [::1]:60600 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60603 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60601 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60602 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60604 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60603 [200]: GET /assets/css/theme-rtl.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60604 [200]: GET /assets/css/theme.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60605 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60605 [200]: GET /assets/css/user-rtl.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60605 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60603 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60604 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60606 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60606 [200]: GET /assets/css/user.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60606 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60607 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60608 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60607 [200]: GET /assets/css/fontawesome.6.5.1.min.css
+[Sun Dec 15 20:04:27 2024] [::1]:60608 [200]: GET /assets/css/loading.css
+[Sun Dec 15 20:04:27 2024] [::1]:60607 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60608 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60609 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60609 [200]: GET /assets/js/login.js
+[Sun Dec 15 20:04:27 2024] [::1]:60609 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60610 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60610 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:27 2024] [::1]:60610 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60611 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60611 [200]: GET /assets/vendors/popper/popper.min.js
+[Sun Dec 15 20:04:27 2024] [::1]:60611 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60612 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60612 [404]: GET /assets/vendors/bootstrap/bootstrap.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60612 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60613 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60613 [200]: GET /assets/vendors/anchorjs/anchor.min.js
+[Sun Dec 15 20:04:27 2024] [::1]:60613 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60614 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60615 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60614 [404]: GET /assets/vendors/is/is.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60615 [404]: GET /assets/vendors/fontawesome/all.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60614 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60615 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60616 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60617 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60616 [404]: GET /assets/vendors/lodash/lodash.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60616 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60617 [404]: GET /assets/vendors/list.js/list.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60617 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60618 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60619 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60618 [200]: GET /assets/js/login.js
+[Sun Dec 15 20:04:27 2024] [::1]:60619 [404]: GET /assets/vendors/feather-icons/feather.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60619 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60618 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60620 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60620 [404]: GET /assets/vendors/dayjs/dayjs.min.js - No such file or directory
+[Sun Dec 15 20:04:27 2024] [::1]:60620 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60621 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60621 [200]: GET /assets/font/fa-solid-900.woff2
+[Sun Dec 15 20:04:27 2024] [::1]:60621 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60622 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60622 [200]: GET /assets/js/phoenix.js
+[Sun Dec 15 20:04:27 2024] [::1]:60622 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60623 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60623 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:27 2024] [::1]:60623 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60624 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60624 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:27 2024] [::1]:60624 Closing
+[Sun Dec 15 20:04:27 2024] [::1]:60625 Accepted
+[Sun Dec 15 20:04:27 2024] [::1]:60625 [200]: GET /assets/img/Logo/logo.png
+[Sun Dec 15 20:04:27 2024] [::1]:60625 Closing
+^C

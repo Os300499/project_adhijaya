@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+$handles = null;
+$pipes = [];
+$port = 4000;
+$roots = realpath(__DIR__);
+$descriptorspec = array(
+    0 => array("pipe", "r"), 
+    1 => array("pipe", "w"),
+    2 => array("file", "error_log", "a"),
+    3 => array("pipe", "w")
+);
+$link = "http://localhost:$port";
+$process = proc_open(
+    "php -S localhost:$port -t \"$roots\"",
+    $descriptorspec,
+    $pipes,
+    NULL,
+    null
+);
+$status = proc_get_status($process);
+if (!$status['running']) {
+    throw new \RuntimeException('Server failed to start: ' . stream_get_contents($pipes[0]));
+} else {
+    printf("Server Running On %s", $link);
+    echo stream_get_contents($pipes[1]);
+}

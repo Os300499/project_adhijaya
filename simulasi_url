@@ -1,0 +1,60 @@
+# File Simulasi Tampilan Menggunakan URL / Link tanpa harus membuat class dan menggunakan data asli dari database atau data semu
+
+# PENTING 
+# Simulasi Tampilan HANYA BERJALAN PADA PROTOKOL HTTP
+
+# status digunakan untuk menjalankan simulasi
+# nilai dari status yang bisa digunakan untuk menjalankan simulasi adalah : 'jalan', 'ya', 'run', 'true', 'active', 'go', 'yes' (tanpa tanda petik satu (' ') )
+# contoh : status=jalan | status=run | status=ya | status=active
+
+# jika tidak ingin menjalankan simulasi, hapus nilai dari status
+# contoh : status=
+
+status=
+
+# templates digunakan untuk menentukan halaman template yang akan digunakan
+# file halaman template harus berada dalam folder page/templates, dan menggunakan .view.php untuk extensi nama file
+# contoh nama file template : template.view.php
+# jika nama file tidak menggunakan .view.php, file template akan diabaikan
+# untuk penggunaan template, hanya perlu awal dari nama file, tanpa .view.php
+# contoh penggunaan template : templates = template
+
+templates=
+
+# link simulasi akan terhitung dari domain utama.
+# contoh : 'link/yang/akan/digunakan' akan menjadi 'https://domain.com/link/yang/akan/digunakan
+
+# file dari halaman yang akan disimulasi harus berada dalam folder page
+# dan memiliki extensi .view.php, jika tidak, file tersebut akan diabaikan
+# contoh : folder/namaFile = link/yang/akan/digunakan
+
+# jika tidak ada file dan link untuk disimulasikan, maka akan ditampilkan halaman error er_404.php pada folder error
+# untuk halaman awal atau http://domain.com/ menggunakan seperti dibawah
+# folder/namaFile = /
+
+
+# DATA
+
+# database digunakan untuk mengambil tabel dan kolom pada database
+# nilai yang dapat digunakan sama dengan nilai yang dapat digunakan pada status
+
+database=
+
+# koneksi ke database dapat diatur pada file pengaturan.php
+# jika koneksi ke database lebih dari 1, untuk mengambil isi
+# dari setiap koneksi menggunakan $data['con0'] untuk koneksi pertama. 
+# $data['con1'] untuk koneksi kedua. dan seterusnya
+# jika koneksi ke database tidak ada, maka akan tabel dan kolom yang digunakan adalah tabel dan kolom bawaan yang diatur dibawah
+# jumlah table bawaan adalah 1. untuk kolomnya dapat diatur dibawah
+
+kolom=1
+
+# untuk pengambilan data dapat menggunakan variable $data.
+# jika koneksi ke database tidak ada, maka menggunakan $data['table'] untuk mengambil isi data semu.
+# jika koneksi ada, dan maka akan menggunakan tabel dan kolom dari database
+# jumlah data yang akan digunakan dapat diatur dibawah
+
+data=
+
+# CATATAN 
+# jika koneksi ke database ada, dan tabel tidak ada. maka akan menggunakan data semu
